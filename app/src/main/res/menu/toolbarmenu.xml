@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Favorite"
+        android:icon="@drawable/ic_favorite"
+        android:id="@+id/itm_delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="share"
+        android:icon="@drawable/ic_share"
+        android:id="@+id/itm_share"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Setting"
+        android:id="@+id/itm_setting"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Gallery"
+        android:id="@+id/itm_gallery"
+        app:showAsAction="never"/>
+    <item
+        android:title="View Price"
+        android:id="@+id/itm_price"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Do booking"
+        android:id="@+id/itm_fill"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Update booking"
+        android:id="@+id/itm_udate"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Cancel booking"
+        android:id="@+id/itm_cancel"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Logout"
+        android:id="@+id/itm_logout"
+        app:showAsAction="never"/>
+
+
+</menu>

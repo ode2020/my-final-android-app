@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.visitrwanda">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.visitrwanda.BookingDetailActivity"></activity>
+        <activity android:name="com.example.visitrwanda.ViewActivity" />
+        <activity android:name="com.example.visitrwanda.InsertActivity" />
+        <activity android:name="com.example.visitrwanda.BookHotel" />
+        <activity android:name="com.example.visitrwanda.SelectedHotActivity" />
+        <activity android:name="com.example.visitrwanda.HotelsActivity" />
+        <activity android:name="com.example.visitrwanda.newActivity" />
+        <activity android:name="com.example.visitrwanda.Beach" />
+        <activity android:name="com.example.visitrwanda.Parks" />
+        <activity android:name="com.example.visitrwanda.MadeInRwanda" />
+        <activity
+            android:name="com.example.visitrwanda.InfoActivity"
+            android:theme="@style/AppThemeDashboard" />
+        <activity android:name="com.example.visitrwanda.GalleryActivity" />
+        <activity android:name="com.example.visitrwanda.HomeActivity" />
+        <activity android:name="com.example.visitrwanda.RegisterActivity" />
+        <activity android:name="com.example.visitrwanda.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

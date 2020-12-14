@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_btn"
+    tools:context=".SelectedHotActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarHotel"
+        android:layout_width="match_parent"
+        android:background="#6f5cfa"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected Hotel"
+            android:textColor="@color/colorYellow"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/selecteHot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Hotel"
+        android:textColor="#6f5cfa"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/hotSelect_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="34dp"
+        android:textSize="18dp"
+        android:layout_margin="40dp"
+        android:text="Book for the hotel"
+        android:background="#FFEB3B" />
+
+
+</RelativeLayout>
