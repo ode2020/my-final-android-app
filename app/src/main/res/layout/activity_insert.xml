@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFF"
+    android:background="@drawable/laptop"
     tools:context=".InsertActivity">
 
     <include
@@ -88,8 +88,7 @@
             android:id="@+id/edt_gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Gender"
-            android:inputType="text"
+            android:text="Gender"
             android:textColor="#0c22ed"
             android:textSize="20sp" />
 

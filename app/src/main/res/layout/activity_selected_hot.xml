@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_btn"
+    android:background="@drawable/hotel"
     tools:context=".SelectedHotActivity">
 
     <include
@@ -27,16 +27,20 @@
             android:textStyle="bold"
             android:layout_gravity="center"/>
     </androidx.appcompat.widget.Toolbar>
+
     <TextView
         android:id="@+id/selecteHot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="134dp"
+        android:gravity="top"
         android:text="Selected Hotel"
-        android:textColor="#6f5cfa"
+        android:textColor="#080BD3"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"
-        android:layout_gravity="center"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/hotSelect_bt"
@@ -44,11 +48,29 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_gravity="center"
-        android:layout_marginBottom="34dp"
-        android:textSize="18dp"
-        android:layout_margin="40dp"
-        android:text="Book for the hotel"
-        android:background="#FFEB3B" />
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="#FFEB3B"
+        android:text="Start Booking"
+        android:textColor="#080BD3"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:text="Is selected"
+        android:textColor="#080BD3"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
 
 
 </RelativeLayout>
